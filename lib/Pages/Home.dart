@@ -172,6 +172,7 @@ class _fruitListState extends State<fruitList> {
 
     return Expanded(
       child: ListView(children: [
+        // Banana
         Stack(
             alignment: Alignment.center,
             fit: StackFit.passthrough,
@@ -420,6 +421,8 @@ class _fruitListState extends State<fruitList> {
                 ],
               )
             ]),
+
+        //Tangerine
         Stack(
             alignment: Alignment.center,
             fit: StackFit.passthrough,
@@ -630,6 +633,8 @@ class _fruitListState extends State<fruitList> {
                 ],
               )
             ]),
+
+        //kiwi
         Stack(
             alignment: Alignment.center,
             fit: StackFit.passthrough,
